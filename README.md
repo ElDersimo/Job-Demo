@@ -5,15 +5,15 @@
 -Project running in **NEAR** platform
 -Project is still in a development stage.
 
-## Upcoming Updates##
+## Upcoming Updates
 -You will be able to get a job
 -You will be able to delete your jobs by work
 -You will be able to see jobs are available or unavailable
 -You will be able to to find your jobs by work
 
-## How to use? ##
+## How to use? 
 
-### DOWNLOAD & INSTALL###
+### DOWNLOAD & INSTALL
 -You must download the Job-Demo in gitHub
 >`git clone https://github.com/ElDersimo/Job-Demo` 
 >`cd Job-Demo`
@@ -21,10 +21,10 @@
 -You must install yarn
 > `yarn`
 
-### NEAR###
+### NEAR
 -If you want to use Job-Demo you must have NEAR account. If you doesn't have the account you can create. Please check the link for how to crate a NEAR account
 
-[CreateNearAccount] (https://docs.near.org/docs/develop/basics/create-account)
+[Create Near Account](https://docs.near.org/docs/develop/basics/create-account)
 
 -After you create a account you must login.
 > `near login`
