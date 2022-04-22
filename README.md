@@ -16,6 +16,7 @@
 ### DOWNLOAD & INSTALL
 -You must download the Job-Demo in gitHub
 >`git clone https://github.com/ElDersimo/Job-Demo` 
+>
 >`cd Job-Demo`
 
 -You must install yarn
@@ -27,7 +28,26 @@
 [Create Near Account](https://docs.near.org/docs/develop/basics/create-account)
 
 -After you create a account you must login.
+
 > `near login`
+### BUILD & DEPLOY
+-You must build and deploy the smart contract
+
+> `yarn build`
+>
+> `near dev-deploy ./build/release/job.wasm`    
+
+or you can use this code
+
+> `yarn dev`
+
+-Export your development account to the $CONTRACT
+
+> `export CONTRACT= yourDevAccount`
+
+
+***if you use Windows this code may not work you must use yourDevAccount***
+
 
 -There are 3 functions on the project
 1. Add your jobs with work, details and salary information.
