@@ -3,7 +3,7 @@ import { AccountId, assert_self, assert_single_promise_success, Money,  } from "
 
 
 export function createJob(work:string, details:string, salary:Money):void{ // You can add job
-    let job = new Job(work, details, toYocto(salary))
+    let job = new Job(work, details, /*toYocto*/(salary))
     jobs.push(job)
 }
 
@@ -19,7 +19,7 @@ export function getJobList(owner: AccountId): Array<Job> { //You can view job li
    
 }
 
-export function deleteJob(): void { //Delete last job
+export function deleteJob(work:string): void { //Delete last job
   jobs.pop()
 }
 
