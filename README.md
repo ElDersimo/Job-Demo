@@ -1,7 +1,7 @@
 # **JOB PROJECT**
 
 ## About
-- This project made for two reason one is someone who searching work and othe one`s who search workers.
+- This project made for two reason one is someone who searching work and other one`s who search workers.
 - Project running in **NEAR** platform
 - Project is still in a development stage.
 
@@ -66,26 +66,26 @@ or you can use this code
 
 ![createJob](/img/export%20function.png)
 
-> `near call $CONTRACT createJob '{"work":"police", "details":"8-16", "salary":"300"}' --accountId Youraccount.testnet `
+> `near call $CONTRACT createJob '{"work":"police", "details":"8-16", "salary":"300"}' --accountId <youraccount.testnet> `
 >
->> **NOTE**: If you use Windows this code may not work. Write the code like this: `near call <yourDevAccount> createJob '{"""work""":"""police""", """details""":"""8-16""", """salary""":"""300"""}' --accountId Youraccount.testnet `
+>> **NOTE**: If you use Windows this code may not work. Write the code like this: `near call <yourDevAccount> createJob '{"""work""":"""police""", """details""":"""8-16""", """salary""":"""300"""}' --accountId <youraccount.testnet> `
 
 
 2. **You can see the previous jobs list**
 
 ![getJobList](/img/get%20job%20list.png)
 
-> `near view $CONTRACT getJobList '{"owner":"youraccountid.testnet"}' `
+> `near view $CONTRACT getJobList '{"owner":"<youraccountid.testnet>"}' `
 or
-> `near call $CONTRACT getJobList '{"owner":"youraccountid.testnet"}' --accountId Youraccount.testnet `
+> `near call $CONTRACT getJobList '{"owner":"<youraccountid.testnet>"}' --accountId <youraccount.testnet> `
 >
->> **NOTE**: If you use Windows this code may not work. Write the code like this: `near view <yourDevAccount> getJobList '{"""owner""":"""youraccountid.testnet"""}'` or `near call <yourDevAccount> getJobList '{"""owner""":"""youraccountid.testnet"""}' --accountId Youraccount.testnet `
+>> **NOTE**: If you use Windows this code may not work. Write the code like this: `near view <yourDevAccount> getJobList '{"""owner""":"""youraccountid.testnet"""}'` or `near call <yourDevAccount> getJobList '{"""owner""":"""<youraccountid.testnet>"""}' --accountId <youraccount.testnet> `
 
 
 3. **You can delete your last job advertisement**
 
 ![deleteJob](/img/deletejob.png)
 
-> `near call $CONTRACT deleteJob --accountId youraccountid.testnet `
+> `near call $CONTRACT deleteJob --accountId <youraccountid.testnet> `
 >
->> **NOTE**: If you use Windows this code may not work. Write the code like this: `near call <yourDevAccount> deleteJob --accountId youraccountid.testnet `
+>> **NOTE**: If you use Windows this code may not work. Write the code like this: `near call <yourDevAccount> deleteJob --accountId <youraccountid.testnet> `

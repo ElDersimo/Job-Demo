@@ -19,7 +19,7 @@ export function getJobList(owner: AccountId): Array<Job> { //You can view job li
    
 }
 
-export function deleteJob(work:string): void { //Delete last job
+export function deleteJob(): void { //Delete last job
   jobs.pop()
 }
 
