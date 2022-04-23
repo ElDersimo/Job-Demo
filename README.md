@@ -15,8 +15,13 @@
 
 ### DOWNLOAD & INSTALL
 -You must download the Job-Demo in gitHub
+
+
 >`git clone https://github.com/ElDersimo/Job-Demo` 
->
+
+![Git Clone](/img/git%20clone.png)
+
+-You must entry the project folder
 >`cd Job-Demo`
 
 -You must install yarn
@@ -30,6 +35,10 @@
 -After you create a account you must login.
 
 > `near login`
+
+![ cd-yarn-login ](/img/cd%20-yarn-login.png)
+
+
 ### BUILD & DEPLOY
 -You must build and deploy the smart contract
 
@@ -37,9 +46,13 @@
 >
 > `near dev-deploy ./build/release/job.wasm`    
 
+![yarn build & near dev-deploy](/img/yarn%20build%20%26%20near%20dev-deploy.png)
+
 or you can use this code
 
 > `yarn dev`
+
+![yarn dev](/img/yarn%20dev.png)
 
 -Export your development account to the $CONTRACT
 
