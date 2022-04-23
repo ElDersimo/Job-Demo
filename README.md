@@ -54,9 +54,7 @@ or you can use this code
 - Export your development account to the $CONTRACT
 
 > `export CONTRACT= <yourDevAccount>`
-
-
-***if you use Windows this code may not work you must use yourDevAccount***
+>>**NOTE**:If you use Windows this code may not work you must write yourDevAccount
 
 
 
