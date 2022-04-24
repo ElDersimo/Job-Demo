@@ -1,7 +1,8 @@
 # **JOB PROJECT**
 
 ## About
-- This project made for two reason one is someone who searching work and other one`s who search workers.
+- This project made for two reason one is someone who searching work and other reason who search workers.
+- This project made by elDersimo for NDC https://app.patika.dev/eldersimo 
 - Project running in **NEAR** platform
 - Project is still in a development stage.
 
@@ -39,17 +40,17 @@
 ### BUILD & DEPLOY
 - You must build and deploy the smart contract
 
+> `yarn dev`
+
+![yarn dev](/img/yarn%20dev.png)
+
+or you can use this codes
+
 > `yarn build`
 >
 > `near dev-deploy ./build/release/job.wasm`    
 
 ![yarn build & near dev-deploy](/img/yarn%20build%20%26%20near%20dev-deploy.png)
-
-or you can use this code
-
-> `yarn dev`
-
-![yarn dev](/img/yarn%20dev.png)
 
 - Export your development account to the $CONTRACT
 
