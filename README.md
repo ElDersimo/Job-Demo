@@ -5,6 +5,7 @@
 - This project made by elDersimo for NDC https://app.patika.dev/eldersimo 
 - Project running in **NEAR** platform
 - Project is still in a development stage.
+- [Loom video link: About Project](https://www.loom.com/share/71e13db7a2874ea78615f0b35706a762)
 
 ## Upcoming Updates
 - You will be able to get a job
