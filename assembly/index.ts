@@ -1,10 +1,10 @@
 import {Job, jobs, toYocto } from "./model";
-import { AccountId, assert_self, assert_single_promise_success, Money,  } from "../utils";
+import { AccountId, Money  } from "../utils";
 
 
 export function createJob(work:string, details:string, salary:Money):void{ // You can add job
     let job = new Job(work, details, /*toYocto*/(salary))
-    jobs.push(job)
+    jobs.push(job)   
 }
 
 
@@ -13,13 +13,12 @@ export function getJobList(owner: AccountId): Array<Job> { //You can view job li
       for(let z = 0; z < jobs.length; z++) {
       if(jobs[z].owner == owner) {
         list.push(jobs[z])
+      }
     }
-  }
+    assert (list.length !=0, "No jobs found!")
    return list
-   
-}
 
+  }
 export function deleteJob(): void { //Delete last job
   jobs.pop()
 }
-

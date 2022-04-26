@@ -1,8 +1,8 @@
-import { Context,PersistentVector, u128 } from "near-sdk-as";
+import { Context,PersistentVector, RNG, u128 } from "near-sdk-as";
 import {AccountId, Money} from "../utils"
 
 export let jobs = new PersistentVector<Job>('j')
-
+export let jobOwners= new PersistentVector <Job>("jo")
 @nearBindgen
 export class Job{
 
@@ -13,13 +13,12 @@ export class Job{
     /*Salary in yocto Ⓝ as an unsigned 128-bit integer
     toYocto(15) => 15000000000000000000000000*/
 
-constructor(work:string, details:string, salary:Money) {
+constructor(work:string, details:string, salary:Money) { 
     this.owner= Context.sender
     this.work= work
     this.details=details
     this.salary= salary
-}
-
+ }
 }
 
 export const ONE_NEAR = u128.from("1000000000000000000000000");

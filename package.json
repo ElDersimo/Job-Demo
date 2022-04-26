@@ -173,6 +173,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "asp",
+    "clean": "rm -rf ./build && rm -rf ./neardev",
     "build": "asb",
     "deploy": "near dev-deploy build/release/job.wasm",
     "dev": "yarn build && yarn deploy"
