@@ -27,7 +27,7 @@
 > `yarn`
 
 ### NEAR
-- If you want to use Job-Demo you must have NEAR account. If you doesn't have the account you can create. Please check the link for how to crate a NEAR account
+- If you want to use Job-Demo you must have NEAR account. If you doesn't have the account you can create. Please check the link for how to create a NEAR account
 
 [Create Near Account](https://docs.near.org/docs/develop/basics/create-account)
 
